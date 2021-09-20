@@ -19,7 +19,7 @@ export class AppComponent implements OnInit {
 
   // {"publicKey":"BDef-IiQ5r5qmheaLbRLo8yz4gX4auqIgpEEGC1v8T1HG6uNiThDTfl4s3nBC2D1nFO8rARDmLT4-uSqRzrfnMc",
   //"privateKey":"Ox88kfeBGB7qdKCFFHcRjUO6Xw5nS-y6NLC9ug8w_LQ"}
-  private baseUrl = '192.168.77.84:3003/api/enviar';
+  //private baseUrl = '192.168.77.84:3003/api/enviar';
 
   constructor(
     private swPush: SwPush,private http: HttpClient,) {
