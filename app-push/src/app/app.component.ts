@@ -14,8 +14,11 @@ export class AppComponent implements OnInit {
   respuesta: any;
   apiData: any;
 
-  readonly VAPID_PUBLIC_KEY = "BBLQU-QqChVfWAo9oqd9xvtxh8yST-lNxCObFvi_1cAU2iXbhzzQ3U6-2TspkmmDLrSPHtKXEedy5ltOOSpbah4";
-  // readonly VAPID_PUBLIC_KEY = "BJP6ojueeNY9Dmt7lgohpWC9FOneTXKysd7GCL_GlmZCyaEVoEBt0JthmzA1qbVhKZ2ff_SXIKsMpb7apjbaPNU";
+  readonly VAPID_PUBLIC_KEY = "BDef-IiQ5r5qmheaLbRLo8yz4gX4auqIgpEEGC1v8T1HG6uNiThDTfl4s3nBC2D1nFO8rARDmLT4-uSqRzrfnMc";
+
+
+  // {"publicKey":"BDef-IiQ5r5qmheaLbRLo8yz4gX4auqIgpEEGC1v8T1HG6uNiThDTfl4s3nBC2D1nFO8rARDmLT4-uSqRzrfnMc",
+  //"privateKey":"Ox88kfeBGB7qdKCFFHcRjUO6Xw5nS-y6NLC9ug8w_LQ"}
   private baseUrl = '192.168.77.84:3003/api/enviar';
 
   constructor(
