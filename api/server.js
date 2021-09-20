@@ -46,7 +46,7 @@ app.use(function(req, res, next) {
 
 // Rutas 
 const routes = require('./routes.js');
-app.use('/api', routes );
+app.use('/push/api', routes );
 
  app.use('/', (req, res, next) => {
     res.send('Hello from SSL server')

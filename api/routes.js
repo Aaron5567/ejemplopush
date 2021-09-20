@@ -4,15 +4,7 @@
 const{Router} = require('express');
 const {enviarNotificacion,test} = require('./push');
 
-const mensajes = [
 
-  {
-    _id: 'XXX',
-    user: 'spiderman',
-    mensaje: 'Hola Mundo'
-  }
-
-];
 
 
 const router = Router();
